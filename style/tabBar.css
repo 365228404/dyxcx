@@ -1,0 +1,106 @@
+/* 自定义tab S */
+.tabBar_box {
+  position: fixed;
+  display: flex;
+  border-top: 1rpx solid #e6e6e6;
+  width: 100%;
+  height: 96rpx;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.tabBar_box .tab_item {
+  flex: 1;
+  text-align: center;
+  font-size: 0;
+  position: relative;
+}
+
+.tab_item .tab_img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.tab_item .tab_text {
+  font-size: 22rpx;
+  text-align: center;
+}
+
+.tabSwitch_box{
+	position: fixed;
+	display: flex;
+	box-shadow:0px 0px 0px 0px rgba(222,222,222,1);
+	width: 100%;
+	height: 166rpx;
+	background-color: white;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+}
+.tabSwitch_box .tab_item {
+  flex: 1;
+  text-align: center;
+  font-size: 0;
+  position: relative;
+}
+
+.tabSwitch_box .tab_img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 6rpx;
+}
+
+.tabSwitch_box .tab_text {
+  font-size: 22rpx;
+  text-align: center;
+	margin-bottom: 50rpx;
+}
+
+.tabSwitch_box .tab_bottom {
+	height:10rpx;
+	background:rgba(0,0,0,1);
+	border-radius:5rpx;
+}
+/* 3.8.0 角标 S */
+.bar_ba_dge_all{
+  position: absolute;
+  border-radius:50%;
+  min-width: 36rpx;
+  min-height: 36rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+}
+.bar_ba_dge {
+  top:6rpx;
+  right:6rpx;
+}
+.bar_ba_dge_mine {
+  top: 30rpx;
+  right: 50rpx;
+}
+.bar_ba_dge_bottom {
+  top:8rpx;
+  right:78rpx;
+}
+.bar_ba_dge_detail{
+  top:0;
+  right:20rpx;
+}
+/* 3.8.0 角标 E */
+/* 自定义tab E */
+
+/* 右下角工具栏 S */
+.scrollTop {
+	position: fixed;
+	bottom: 200rpx;
+	right: 20rpx;
+	width: 108rpx;
+	height: 108rpx;
+	z-index: 50;
+}
+/* 右下角工具栏 E */

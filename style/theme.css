@@ -1,0 +1,152 @@
+/* 主题色 */
+.themeC {
+  color: #FF4466;
+}
+.bg_theme {
+  background: #FF4466;
+}
+.bd_theme{
+  border:1rpx solid #FF4466;
+}
+.bd_themeC{
+  border-color: #FF4466;
+}
+.theme_gradient{
+  background:linear-gradient(90deg,rgba(252,56,186,1) 0%,rgba(255,51,130,1) 100%);
+}
+.bdb_theme{
+  border-bottom:1rpx solid #FF4466;
+}
+
+.btn_default{
+  display: inline-block;
+  min-width: 120rpx;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 16rpx 24rpx;
+  color:#fff;
+  background: #FF4466;
+  font-size:26rpx;
+  border-radius:56rpx;
+  white-space: nowrap;
+}
+.btn_red{
+  color:#FF4466;
+  background:#FFF3F4;
+}
+/* 小标签 */
+.tag_small{
+  display: inline-block;
+  background: #FEF5E4;
+  color: #FF4466;
+  padding: 6rpx 10rpx;
+  border-radius: 32rpx;
+  font-size: 20rpx;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: 20rpx;
+}
+.tag_small_bd{
+  background: #fff;
+  color: #FF4466;
+  border: 2rpx solid #FF4466;
+  line-height: 20rpx;
+}
+.tag_small_red{
+  color: #FF4466;
+  background: #FFF3F4;
+}
+.tag_gradient{
+  color: #fff;
+  background:linear-gradient(90deg,rgba(254,175,113,1) 0%,rgba(254,131,131,1) 100%);
+}
+.wg_placeholder {
+  color: #989898;
+}
+/*color*/
+.cf {
+  color: #fff;
+}
+.c_grey1{
+  color: #27292B;
+}
+.c_grey2{
+  color: #808080;
+}
+.c_grey3{
+  color: #989898;
+}
+.c_grey4{
+  color: #e6e6e6;
+}
+.c_grey5{
+  color: #f7f7f7;
+}
+.c_grey6{
+  color: #999;
+}
+.c_link{
+  color: #A3BEFB;
+}
+.c_orange1{
+  color: #FF9645;
+}
+.c_FD7D6F{
+	color: #FD7D6F;
+}
+.c_AD8C4E {
+	color: #AD8C4E;
+}
+/* background-color */
+.bgf {
+  background: #fff;
+}
+.bg_grey1{
+  background: #27292B;
+}
+.bg_grey2{
+  background: #808080;
+}
+.bg_grey3{
+  background: #989898;
+}
+.bg_grey4{
+  background: #e6e6e6;
+}
+.bg_grey5{
+  background: #f7f7f7;
+}
+.sub_bg1{
+  background: #FEF5E4;
+}
+.sub_bg2{
+  background: #FFF3F4;
+}
+.bg_blue{
+  background: #6A96FA;
+}
+.bg_orange{
+  background: #FF9645;
+}
+.bg_green{
+  background: #77C257;
+}
+.bg_grey{
+  background: #989898;
+}
+.bg_FFF5CA{
+	background: #FFF5CA;
+}
+/* border */
+.bd_grey4{
+  border-color: #e6e6e6;
+}
+.bd_cf{
+  border-color: white;
+}
+.bd_grey1{
+  border: #27292B;
+}
+.bd_grey2{
+  border: #808080;
+}

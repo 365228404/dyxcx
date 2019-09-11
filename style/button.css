@@ -1,0 +1,50 @@
+/* 按钮 */
+.btn_white{
+  padding: 14rpx 22rpx;
+  color:#989898;
+  background:#fff;
+  border: 1rpx solid #989898;
+  /* box-shadow:inset 0rpx 0rpx 0rpx 1rpx #989898; */
+}
+
+.btn_grey{
+  color:#808080;
+  background:#e6e6e6;
+}
+.btn_darkgrey{
+  color:#fff;
+  background:#989898;
+}
+.btn_yellow{
+  color:#27292B;
+  background:#FEE382;
+}
+.btn_green{
+  color:#fff;
+  background:#ABE194;
+}
+.btn_black{
+  padding: 14rpx 22rpx;
+  background:#fff;
+  color:#989898;
+  border: 1rpx solid #989898;
+}
+
+.btn_sl{
+  padding: 8rpx 18rpx;
+  font-size: 22rpx;
+}
+.btn_lg{
+  padding: 20rpx 120rpx;
+  font-size: 32rpx;
+}
+
+/* 小标签 */
+.tag_grey{
+  background: #f7f7f7;
+  color: #808080;
+}
+.tag_darkgrey{
+  color:#fff;
+  background:#989898;
+}

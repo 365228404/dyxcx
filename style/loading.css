@@ -1,0 +1,134 @@
+/* 加载动画 S */
+.loadBeating {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.loadBeating .loadText {
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+
+/* 优选动画 S */
+.load_img{
+  width: 80px;
+  height: 64px;
+  margin-top: -64px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  background-size: auto 100%;
+  -webkit-animation: unloginAnimate 680ms steps(10) infinite;
+  -moz-animation: unloginAnimate 680ms infinite steps(10);
+  -o-animation: unloginAnimate 680ms infinite steps(10);
+  animation: unloginAnimate 680ms steps(10) infinite
+}
+@keyframes unloginAnimate {
+    from {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: -800px 0
+    }
+}
+.loadingMarginTop{
+  margin-top: -500rpx;
+}
+/* 优选动画 E */
+/* 其他动画 E */
+.loadBeating .load_box {
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: -100rpx;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+.load_box .load_item {
+  display: inline-block;
+  width: 30rpx;
+  height: 10rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  background: #999;
+  position: absolute;
+  -webkit-animation: load 1.04s ease infinite;
+  animation: load 1.04s ease infinite;
+}
+@keyframes load {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+.load_box .load_01 {
+  left: 0;
+  top: 50%;
+  margin-top: -5rpx;
+  animation-delay: 0.13s;
+}
+.load_box .load_02 {
+  left: 10rpx;
+  top: 20rpx;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  animation-delay: 0.26s;
+}
+.load_box .load_03 {
+  left: 50%;
+  top: 10rpx;
+  margin-left: -15rpx;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+.load_box .load_04 {
+  top: 20rpx;
+  right: 10rpx;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  animation-delay: 0.52s;
+}
+.load_box .load_05 {
+  right: 0;
+  top: 50%;
+  margin-top: -5rpx;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  animation-delay: 0.65s;
+}
+.load_box .load_06 {
+  right: 10rpx;
+  bottom: 20rpx;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  animation-delay: 0.78s;
+}
+.load_box .load_07 {
+  bottom: 10rpx;
+  left: 50%;
+  margin-left: -15rpx;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  animation-delay: 0.91s;
+}
+.load_box .load_08 {
+  bottom: 20rpx;
+  left: 10rpx;
+  -webkit-transform: rotate(315deg);
+  transform: rotate(315deg);
+  animation-delay: 1.04s;
+}
+/* 其他动画 E */

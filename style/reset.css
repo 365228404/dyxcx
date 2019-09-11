@@ -1,0 +1,31 @@
+/* 小程序重置样式 */
+button::after {
+  border: 0;
+  border-radius: 0;
+}
+button {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+  background-color: transparent;
+  color: #27292B;
+}
+.button-hover {
+  background-color: inherit;
+}
+
+button[disabled]:not([type]) {
+  color: inherit;
+  background-color:#fff;
+}
+button[disabled] {
+  color: inherit;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+

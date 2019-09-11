@@ -1,0 +1,63 @@
+/*  表单输入框 */
+.wg_form_item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #e6e6e6;
+  padding: 40rpx 0;
+  font-size: 28rpx;
+  background: #fff;
+}
+.wg_form_item_label {
+  width: 140rpx;
+  margin-left: 30rpx;
+  margin-right: 50rpx;
+  color: #808080;
+}
+.wg_input {
+  flex: 1;
+  height: 100%;
+  padding-right: 30rpx;
+}
+.wg_form_item_textarea{
+  align-items: stretch;
+}
+.wg_textarea{
+  flex: 1;
+  height: 80rpx;
+  padding-right: 30rpx;
+}
+/*  获取验证码  */
+.wg_form_item .wg_code_btn {
+  padding: 0 30rpx;
+  font-size: 26rpx;
+  color: #A3BEFB;
+  background-color: #fff;
+}
+.wg_form_item .wg_code_btn::after {
+  content: "";
+  border: 0px;
+}
+
+/* 数据筛选头 */
+.datalist_select {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 40rpx 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow:inset 0rpx -1rpx 0rpx 0rpx #e6e6e6;
+  background: #fff;
+}
+/* 数据列表 */
+.datalist_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40rpx 30rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+  background: #fff;
+}

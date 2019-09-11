@@ -1,0 +1,20 @@
+/*toast*/
+.toast_box {
+  position: fixed;
+  width: 100%;
+  top: 45%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 10013;
+  font-size: 0;
+}
+.toast{
+  display: inline-block;
+  max-width: 370rpx;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  margin: 0 auto;
+  border-radius: 88rpx;
+  padding: 24rpx 56rpx;
+  font-size: 28rpx;
+}

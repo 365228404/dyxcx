@@ -1,0 +1,207 @@
+/* 下面弹出 S */
+.drawer_modal {
+  width: 100%;
+  height: 75%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+  background: #fff;
+  border-radius: 40rpx 40rpx 0px 0px;
+}
+.drawer_modal_lg{
+  height: 100%;
+  border-radius: 0;
+}
+.drawer_modal_xs{
+  height: 42%;
+}
+
+.drawer_title{
+  height: 108rpx;
+  line-height: 108rpx;
+  padding-left: 40rpx;
+  font-size: 28rpx;
+}
+.drawer_close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 20rpx;
+  height: 20rpx;
+  padding: 40rpx;
+}
+.drawer_container{
+  height: calc(100% - 108rpx);
+}
+.drawer_content{
+  height: calc(100% - 150rpx);
+}
+
+.drawer_ft {
+  display: flex;
+  align-items: center;
+  height: 90rpx;
+  margin: 30rpx 40rpx;
+}
+.drawer_btn{
+  flex: 1;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align:center;
+  border-radius: 90rpx;
+  font-size:32rpx;
+  background: #F7F7F7;
+  color: #808080;
+}
+.drawer_btn_white{
+  height: 88rpx;
+  color:#989898;
+  background:#fff;
+  border: 1rpx solid #989898;
+}
+.drawer_btn+.drawer_btn{
+  margin-left: 30rpx;
+}
+
+/* picker选择器 */
+.drawer_picker{
+  height: 440rpx;
+}
+/* 分享 S */
+.drawer_share_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26rpx;
+  flex: 1;
+}
+.drawer_share_img{
+  width: 56rpx;
+  height: 56rpx;
+  padding: 42rpx;
+  border-radius: 50%;
+  margin-bottom: 30rpx;
+  background: #f7f7f7;
+}
+/* 分享 E */
+/* 购物 S */
+.shop_hd{
+  display: flex;
+  padding: 40rpx 0 20rpx 40rpx;
+}
+.shop_hd .shop_show{
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 30rpx;
+  background: #f7f7f7;
+}
+.shop_hd .shop_img {
+  width: 160rpx;
+  height: 160rpx;
+  background: #f7f7f7;
+}
+.shop_hd .shop_info{
+  padding-top: 36rpx;
+  padding-right: 140rpx;
+}
+.shop_info .goods_name {
+  height:72rpx;
+  display:-webkit-box;
+  text-overflow:ellipsis;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  overflow:hidden;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  color: #27292B;
+}
+.shop_bd {
+  width: 710rpx;
+  height: calc(100% - 372rpx);
+}
+.spec_box{
+  padding-left: 40rpx;
+}
+.spec_box .shop_spec{
+  padding-top: 20rpx;
+}
+.spec_box .spec_name{
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #808080;
+}
+.shop_spec .spec_btn{
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+}
+.shop_quantity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40rpx 0;
+}
+.num_box {
+  display: flex;
+  align-items: center;
+  width: 318rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  border-radius: 8rpx;
+  text-align: center;
+  font-size: 36rpx;
+  color: #989898;
+}
+.reduction {
+  width: 90rpx;
+  height: 100%;
+  border: 1rpx solid #989898;
+  border-right: none;
+  border-radius: 8rpx 0 0 8rpx;
+}
+.num_box .numDisplayed {
+  flex: 1;
+  height: 100%;
+  font-size: 26rpx;
+  border: 1rpx solid #989898;
+}
+.add {
+  width: 90rpx;
+  height: 100%;
+  border: 1rpx solid #989898;
+  border-left: none;
+  border-radius: 0 8rpx 8rpx 0;
+}
+/* .shop_bottom{
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  border-top:1rpx solid #e6e6e6;
+}
+.shop_bottom .shop_btn {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28rpx;
+  border-radius: 0rpx;
+  height: 100%;
+  line-height: 100rpx;
+  color: #fff;
+} */
+/* 购物 E */
+
+/* 全面屏适配 */
+/* .ip_shop_bottom{
+  padding-bottom: 68rpx;
+  background-color:rgba(255, 255, 255, 1);
+}
+.ip_shop_bd{
+  padding-bottom: 168rpx;
+} */

@@ -1,0 +1,38 @@
+/* 卡片 */
+.wg_crad{
+  margin: 0 30rpx;
+  padding: 40rpx;
+  color: #fff;
+  background:linear-gradient(-30deg,rgba(255,125,147,1),rgba(254,131,167,1));
+  border-radius: 20rpx;
+}
+.wg_crad_blue{
+  background:linear-gradient(90deg,rgba(106,150,250,1),rgba(141,176,255,1));
+}
+.wg_crad_green{
+  background:linear-gradient(90deg,rgba(127,219,186,1),rgba(155,230,151,1));
+}
+.wg_crad_hd{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 26rpx;
+  font-size: 22rpx;
+}
+.wg_crad_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(255,255,255,0.2);
+  color: #fff;
+  width: 108rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  font-size: 22rpx;
+  border-radius: 32rpx;
+}
+.wg_crad_num{
+  display: flex;
+  justify-content: space-between;
+  font-size: 72rpx;
+  line-height: 54rpx;
+}
